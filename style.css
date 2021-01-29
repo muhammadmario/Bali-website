@@ -1,0 +1,64 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background: rgb(27, 27, 27)
+    
+}
+
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+    opacity: .1;
+}
+
+/* Set the border color */ 
+.custom-toggler.navbar-toggler { 
+    border-color: rgb(255,255,255); 
+} 
+/* Setting the stroke to green using rgb values (0, 128, 0) */ 
+.custom-toggler .navbar-toggler-icon { 
+    background-image: url( 
+"data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E"); 
+} 
+
+.navbar{
+    background-color: transparent;
+}
+
+.navbar .container .navbar-brand{
+    font-size: 2em;
+    font-weight: 700;
+    color: white;
+}
+
+.navbar .container .collapse .navbar-nav a{
+    color: white;
+}
+
+.banner{
+    min-height: 80vh;
+    align-items: center;
+}
+
+.banner .textBox h2{
+    color: white;
+    font-size: 2.5em;
+    font-weight: 600;
+}
+
+.banner .textBox p{
+    color: white;
+
+}
+
+.banner .videoBox video{
+    width:100%;
+}
